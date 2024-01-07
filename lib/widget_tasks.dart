@@ -160,7 +160,6 @@ class TasksViewState extends State<TasksView> {
                 // done list
                 Visibility(
                   visible: done.isNotEmpty,
-                  // https://api.flutter.dev/flutter/material/ExpansionTile-class.html
                   child: ExpansionTile(
                     shape: const Border(),
                     tilePadding: const EdgeInsets.symmetric(horizontal: 32),
